@@ -1,0 +1,15 @@
+server:
+  port: 3331
+spring:
+  application:
+    name: s4c-microservice-eureka-registry-service
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: false
+logging:
+  file: logs/${spring.application.name}.log
+  level:
+    org.springframework.cloud: DEBUG
