@@ -15,6 +15,8 @@ This project implements a simple service for registry and discovering Microservi
 
 2. Run `mvn spring-boot:run` 
 
+3. The service will be available (local mode) at port 3331
+
 
 ## Testing
 
