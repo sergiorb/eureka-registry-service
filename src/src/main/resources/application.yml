@@ -8,7 +8,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
   server:
-    enableSelfPreservation: false
+    enableSelfPreservation: true
 logging:
   file: logs/${spring.application.name}.log
   level:
