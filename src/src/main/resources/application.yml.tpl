@@ -1,8 +1,8 @@
 server:
-  port: 3331
+  port: _EUREKA_PORT_
 spring:
   application:
-    name: s4c-microservice-eureka-registry-service
+    name: _MICROSERVICE_
 eureka:
   client:
     registerWithEureka: false
