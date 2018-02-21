@@ -2,3 +2,9 @@ src/src/main/resources/application-*.properties
 src/src/main/resources/application.yml
 src/target/
 src/unpacked-war-file/
+
+# Eclipse workspace
+src/.classpath
+src/.project
+src/.settings/
+src/logs/
